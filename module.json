@@ -1,24 +1,19 @@
 {
-  "id": "cenario-is-pf2e",
-  "title": "Cenario IS PF2e",
+  "id": "cenario-is-imperios-sagrados-pf2e",
+  "title": "Cenário IS Impérios Sagrados PF2e",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
-  "url": "https://github.com/imperiossagrados/Cenario-Imperios-Sagrados",
-  "manifest": "https://github.com/imperiossagrados/Cenario-Imperios-Sagrados/main/module.json",
+  "description": "<p>IS</p>",
   "authors": [
     {
       "name": "Cristian Abreu de Quevedo",
-      "email": "cristian-quevedo@hotmail.com",
-      "flags": {}
-    },
-    {
-      "name": "Welyson Pereira de Almeida",
       "flags": {}
     }
   ],
+  "url": "https://imperiossagrados.com.br/",
   "flags": {
     "canUpload": true
   },
@@ -27,7 +22,7 @@
       "name": "classes",
       "label": "Classes",
       "path": "packs/classes",
-      "type": "Actor",
+      "type": "Item",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -35,95 +30,86 @@
       }
     },
     {
-      "name": "heritages",
-      "label": "Heritages",
-      "path": "packs/heritages",
-      "type": "Actor",
-      "system": "pf2e",
+      "name": "classfeatures",
+      "label": "Classfeatures",
+      "path": "packs/classfeatures",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "pf2e"
     },
     {
       "name": "feats",
       "label": "Feats",
       "path": "packs/feats",
-      "type": "Actor",
-      "system": "pf2e",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }  
+      },
+      "system": "pf2e"
     },
-        {
-      "name": "features",
-      "label": "Features",
-      "path": "packs/features",
-      "type": "Actor",
-      "system": "pf2e",
+    {
+      "name": "feats-effects",
+      "label": "Feats-effects",
+      "path": "packs/feats-effects",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }  
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "heritages",
+      "label": "Heritages",
+      "path": "packs/heritages",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
     },
     {
       "name": "spells",
       "label": "Spells",
       "path": "packs/spells",
-      "type": "Actor",
-      "system": "pf2e",
+      "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "pf2e"
     },
+    {
+      "name": "spells-effects",
+      "label": "Spells-effects",
+      "path": "packs/spells-effects",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
   ],
-  "description": "<p>Cenário Universo IS Impérios Sagrados para Pathfinder 2e</p>",
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {"minimum": "6.10"}
-      }
-    ]
-  },
   "packFolder":[
     {
       "name": "Expasion Pack",
       "sorting": "m",
       "packs": [
         "classes",
+        "classfeatures",
         "heritages",
         "feats",
-        "features",
-        "spells"
+        "feats-effects",
+        "spells",
+        "spells-effects",
       ]
     }
   ],
-  "flags": {
-    "cenario-is-pf2e": {
-      "pf2e-homebrew": {
-        "creatureTraits": {
-          "arut": "CIS.Traits.Arut",
-          "zaurin": "CIS.Traits.Zaurin",
-          "tarion": "CIS.Traits.Tarion"
-        },
-        "featTraits":{
-          "hartari": "CIS.Traits.Hartari",
-          "arut": "CIS.Traits.Arut",
-          "zaurin": "CIS.Traits.Zaurin",
-          "tarion": "CIS.Traits.Tarion"
-        },
-        "languages":{
-          "arut": "CIS.Language.Arutiano",
-          "zaurin": "CIS.Language.Zauriano",
-          "tarion": "CIS.Language.Tariano"
-        }
-      }
-    }
 
-
-  },
 }
