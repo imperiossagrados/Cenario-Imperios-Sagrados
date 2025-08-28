@@ -6,6 +6,8 @@
     "minimum": "13",
     "verified": "13"
   },
+  "url": "https://github.com/imperiossagrados/Cenario-Imperios-Sagrados",
+  "manifest": "https://github.com/imperiossagrados/Cenario-Imperios-Sagrados/main/module.json",
   "authors": [
     {
       "name": "Cristian Abreu de Quevedo",
@@ -119,17 +121,9 @@
           "zaurin": "CIS.Language.Zauriano",
           "tarion": "CIS.Language.Tariano"
         }
-
       }
     }
 
 
   },
-  "languages": [
-    {
-      "lang": "pt-br",
-      "name": "Portuges-Brasil",
-      "path": "lang/pt-br.json"
-    }
-  ]
 }
