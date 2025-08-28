@@ -1,0 +1,51 @@
+{
+    "_id": "refleAfia",
+    "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+    "name": "Reflexos afiados",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Seus reflexos condicionados lhe permitem contin ar seguro mesmo diante de explosões cataclísmicas. Sua graduação de proficiência em testes de Reflexos aumenta para mestre. Quando obtiver um sucesso em um salvamento de Reflexos, em vez disso, você consegue um sucesso crítico.</p>"
+        },
+        "level": {
+            "value": 15
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cenário Impérios Sagrados"
+        },
+        "rules": [
+            {
+                "adjustment": {
+                    "success": "one-degree-better"
+                },
+                "key": "AdjustDegreeOfSuccess",
+                "selector": "reflex"
+            }
+        ],
+        "subfeatures": {
+            "proficiencies": {
+                "reflex": {
+                    "rank": 3
+                }
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hartari"
+            ]
+        }
+    },
+    "type": "feat"
+}

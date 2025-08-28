@@ -1,0 +1,61 @@
+{
+    "_id": "maesArm",
+    "img": "icons/equipment/chest/breastplate-sculpted-grey.webp",
+    "name": "Maestria com armaduras",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Sua habilidade com armaduras aumenta ainda mais. Sua graduação de proficiência com armaduras leves, médias e pesadas, bem como em defesa sem armadura, aumenta para mestre.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cenário Impérios Sagrados"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.defenses.heavy.rank",
+                "predicate": [
+                    {
+                        "not": "class:barbarian"
+                    }
+                ],
+                "value": 3
+            }
+        ],
+        "subfeatures": {
+            "proficiencies": {
+                "light": {
+                    "rank": 3
+                },
+                "medium": {
+                    "rank": 3
+                },
+                "unarmored": {
+                    "rank": 3
+                }
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hartari"
+            ]
+        }
+    },
+    "type": "feat"
+}

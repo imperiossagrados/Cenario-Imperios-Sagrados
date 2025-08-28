@@ -1,0 +1,135 @@
+{
+  "id": "cenario-is-pf2e",
+  "title": "Cenario IS PF2e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Cristian Abreu de Quevedo",
+      "email": "cristian-quevedo@hotmail.com",
+      "flags": {}
+    },
+    {
+      "name": "Welyson Pereira de Almeida",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "heritages",
+      "label": "Heritages",
+      "path": "packs/heritages",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }  
+    },
+        {
+      "name": "features",
+      "label": "Features",
+      "path": "packs/features",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }  
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+  ],
+  "description": "<p>Cenário Universo IS Impérios Sagrados para Pathfinder 2e</p>",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {"minimum": "6.10"}
+      }
+    ]
+  },
+  "packFolder":[
+    {
+      "name": "Expasion Pack",
+      "sorting": "m",
+      "packs": [
+        "classes",
+        "heritages",
+        "feats",
+        "features",
+        "spells"
+      ]
+    }
+  ],
+  "flags": {
+    "cenario-is-pf2e": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "arut": "CIS.Traits.Arut",
+          "zaurin": "CIS.Traits.Zaurin",
+          "tarion": "CIS.Traits.Tarion"
+        },
+        "featTraits":{
+          "hartari": "CIS.Traits.Hartari",
+          "arut": "CIS.Traits.Arut",
+          "zaurin": "CIS.Traits.Zaurin",
+          "tarion": "CIS.Traits.Tarion"
+        },
+        "languages":{
+          "arut": "CIS.Language.Arutiano",
+          "zaurin": "CIS.Language.Zauriano",
+          "tarion": "CIS.Language.Tariano"
+        }
+
+      }
+    }
+
+
+  },
+  "languages": [
+    {
+      "lang": "pt-br",
+      "name": "Portuges-Brasil",
+      "path": "lang/pt-br.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "_id": "aura-ht",
+    "img": "icons/environment/people/charge.webp",
+    "name": "Aura Hartari",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Como reflexo do seu treinamento a Força ao seu redor é influenciada pela sua presença e vontade criando efeitos com base no seu treinamento. o Hartari emana uma aura de 3 metros com efeitos adversos. Você recebe +2 de bônus de circunstância em testes de Percepção para iniciativa, lhe permitindo reagir mais rápido durante o combate.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cenário Impérios Sagrados"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "perception"
+                ],
+                "selector": "initiative",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hartari"
+            ]
+        }
+    },
+    "type": "feat"
+}

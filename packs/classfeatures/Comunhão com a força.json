@@ -1,0 +1,43 @@
+{
+    "_id": "comunhaoForca",
+    "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
+    "name": "Comunhão com a força",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Através das suas meditações diárias e treinamento na manipulação da força, ela não mais é manipulada como algo externo, mas sim flui através de você assim como o sangue em suas veias. Sua graduação de proficiência em modificador de ataque com magia e CD de magia aumenta para lendário.</p>"
+        },
+        "level": {
+            "value": 19
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cenário Impérios Sagrados"
+        },
+        "rules": [],
+        "subfeatures": {
+            "proficiencies": {
+                "spellcasting": {
+                    "rank": 4
+                }
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hartari"
+            ]
+        }
+    },
+    "type": "feat"
+}
