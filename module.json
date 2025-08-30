@@ -23,7 +23,8 @@
     }
   ],
   "url": "https://imperiossagrados.com.br/",
-  "manifest": "https://github.com/imperiossagrados/Cenario-Imperios-Sagrados/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/imperiossagrados/Cenario-Imperios-Sagrados/refs/heads/main/module.json",
+  "download":"https://github.com/imperiossagrados/Cenario-Imperios-Sagrados/archive/refs/heads/main.zip",
   "flags": {
     "canUpload": true
   },
