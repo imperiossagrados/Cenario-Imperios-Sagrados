@@ -2,11 +2,20 @@
   "id": "cenario-is-imperios-sagrados-pf2e",
   "title": "Cenário IS Impérios Sagrados PF2e",
   "version": "1.0.0",
+  "relationships": {
+    "systems": [
+        {
+          "id": "pf2e",
+          "type": "system",
+          "compatibility": {
+              "minimum": "5.1.0"
+        }
+  },
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
-  "description": "<p>IS</p>",
+  "description": "Adapação do ccenário Impérios Sagrados",
   "authors": [
     {
       "name": "Cristian Abreu de Quevedo",
