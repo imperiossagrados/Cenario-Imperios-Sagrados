@@ -4,13 +4,14 @@
   "version": "1.0.0",
   "relationships": {
     "systems": [
-        {
-          "id": "pf2e",
-          "type": "system",
-          "compatibility": {
-              "minimum": "5.1.0"
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.1.0"
         }
-    ],
+      }
+    ]
   },
   "description": "Adapação do ccenário Impérios Sagrados",
   "authors": [
