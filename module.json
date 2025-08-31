@@ -19,7 +19,7 @@
     {
       "name": "classes",
       "label": "Classes",
-      "path": "packs/classes",
+      "path": "packs/classes.db",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
