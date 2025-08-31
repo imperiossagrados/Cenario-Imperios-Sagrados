@@ -19,7 +19,7 @@
     {
       "name": "classes",
       "label": "Classes",
-      "path": "packs/classes.db",
+      "path": "packs/classes/classes.db",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -30,7 +30,7 @@
     {
       "name": "classfeatures",
       "label": "Classfeatures",
-      "path": "packs/classfeatures.db",
+      "path": "packs/classfeatures/classfeatures.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
