@@ -30,7 +30,7 @@
     {
       "name": "classfeatures",
       "label": "Classfeatures",
-      "path": "packs/classfeatures",
+      "path": "packs/classfeatures.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
