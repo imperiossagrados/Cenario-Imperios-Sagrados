@@ -41,7 +41,7 @@
     {
       "name": "feats",
       "label": "Feats",
-      "path": "packs/feats",
+      "path": "packs/feats.db",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -52,7 +52,7 @@
     {
       "name": "feats-effects",
       "label": "Feats-effects",
-      "path": "packs/feats-effects",
+      "path": "packs/feats-effects.db",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -63,7 +63,7 @@
     {
       "name": "heritages",
       "label": "Heritages",
-      "path": "packs/heritages",
+      "path": "packs/heritages.db",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -74,7 +74,7 @@
     {
       "name": "spells",
       "label": "Spells",
-      "path": "packs/spells",
+      "path": "packs/spells.db",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -85,7 +85,7 @@
     {
       "name": "spells-effects",
       "label": "Spells-effects",
-      "path": "packs/spells-effects",
+      "path": "packs/spells-effects.db",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
