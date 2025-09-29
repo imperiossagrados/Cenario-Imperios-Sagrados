@@ -109,6 +109,20 @@
       ]
     }
   ],
+  "falgs"{
+    "cenario-is-imperios-sagrados-pf2e"{
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "zaurin": "Zaurin",
+          "seth": "Seth"
+        }.
+        "featTraits": {
+          "zaurin": "Zaurin",
+          "seth": "Seth"
+        }
+      }
+    }
+  },
   "compatibility": {
     "minimum": "11",
     "verified": "11"
