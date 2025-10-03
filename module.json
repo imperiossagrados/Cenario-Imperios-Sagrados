@@ -63,7 +63,29 @@
     {
       "name": "heritages",
       "label": "Heritages",
-      "path": "packs/heritages.db",
+      "path": "./packs/heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "divindades",
+      "label": "Divindades",
+      "path": "./packs/divindades",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dons",
+      "label": "Dons",
+      "path": "./packs/dons",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -102,6 +124,8 @@
         "classes",
         "classfeatures",
         "heritages",
+        "divindadess",
+        "dons",
         "feats",
         "feats-effects",
         "spells",
