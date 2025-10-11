@@ -67,7 +67,7 @@
     {
       "name": "heritages",
       "label": "Heritages",
-      "path": "./packs/heritages",
+      "path": "./packs/heritages.db",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -78,7 +78,7 @@
     {
       "name": "divindades",
       "label": "Divindades",
-      "path": "./packs/divindades",
+      "path": "./packs/divindades.db",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -89,7 +89,7 @@
     {
       "name": "dons",
       "label": "Dons",
-      "path": "./packs/dons",
+      "path": "./packs/dons.db",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
