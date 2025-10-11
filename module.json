@@ -5,7 +5,10 @@
   "description": "Adaptação do cenário Impérios Sagrados",
   "authors": [
     {
-      "name": "Cristian Abreu de Quevedo",
+      "name": {
+        "Cristian Abreu de Quevedo",
+        "Welyson"
+      },
       "flags": {}
     }
   ],
