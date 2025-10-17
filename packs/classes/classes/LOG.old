@@ -1,0 +1,15 @@
+2025/10/15-16:27:21.186 559c Recovering log #47
+2025/10/15-16:27:21.188 559c Delete type=0 #47
+2025/10/15-16:27:21.188 559c Delete type=3 #45
+2025/10/15-16:46:45.307 56d8 Level-0 table #53: started
+2025/10/15-16:46:45.355 56d8 Level-0 table #53: 2474 bytes OK
+2025/10/15-16:46:45.360 56d8 Delete type=0 #51
+2025/10/15-16:46:45.361 56d8 Manual compaction at level-0 from '!items!hartari-class' @ 72057594037927935 : 1 .. '!items!null' @ 0 : 0; will stop at (end)
+2025/10/15-16:46:45.361 56d8 Manual compaction at level-1 from '!items!hartari-class' @ 72057594037927935 : 1 .. '!items!null' @ 0 : 0; will stop at '!items!null' @ 12 : 1
+2025/10/15-16:46:45.361 56d8 Compacting 1@1 + 1@2 files
+2025/10/15-16:46:45.373 56d8 Generated table #54@1: 2 keys, 4652 bytes
+2025/10/15-16:46:45.374 56d8 Compacted 1@1 + 1@2 files => 4652 bytes
+2025/10/15-16:46:45.374 56d8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/15-16:46:45.375 56d8 Delete type=2 #49
+2025/10/15-16:46:45.375 56d8 Delete type=2 #53
+2025/10/15-16:46:45.383 56d8 Manual compaction at level-1 from '!items!null' @ 12 : 1 .. '!items!null' @ 0 : 0; will stop at (end)
