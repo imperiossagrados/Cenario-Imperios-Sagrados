@@ -5,14 +5,8 @@
   "systems": ["pf2e"],
   "description": "Adaptação do cenário Impérios Sagrados",
   "authors": [
-    {
-      "name": "Cristian Abreu de Quevedo",
-      "flags": {}
-    },
-    {
-      "name": "Welyson",
-      "flags": {}
-    }
+    { "name": "Cristian Abreu de Quevedo" },
+    { "name": "Welyson" }
   ],
   "url": "https://imperiossagrados.com.br/",
   "manifest": "https://raw.githubusercontent.com/imperiossagrados/Cenario-Imperios-Sagrados/main/module.json",
@@ -33,114 +27,15 @@
     }
   },
   "packs": [
-    {
-      "name": "classes",
-      "label": "Classes",
-      "path": "packs/classes",
-      "type": "Item",
-      "systems": ["pf2e"],
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "classfeatures",
-      "label": "Classfeatures",
-      "path": "packs/classfeatures",
-      "type": "Item",
-      "systems": ["pf2e"],
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "feats",
-      "label": "Feats",
-      "path": "packs/feats",
-      "type": "Item",
-      "systems": ["pf2e"],
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "feats-effects",
-      "label": "Feats-effects",
-      "path": "packs/feats-effects",
-      "type": "Item",
-      "systems": ["pf2e"],
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "heritages",
-      "label": "Heritages",
-      "path": "packs/heritages",
-      "type": "Item",
-      "systems": ["pf2e"],
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "divindades",
-      "label": "Divindades",
-      "path": "packs/divindades",
-      "type": "Item",
-      "systems": ["pf2e"],
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "dons",
-      "label": "Dons",
-      "path": "packs/dons/dons",
-      "type": "Item",
-      "systems": ["pf2e"],
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "spells",
-      "label": "Spells",
-      "path": "packs/spells",
-      "type": "Item",
-      "systems": ["pf2e"],
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "spells-effects",
-      "label": "Spells-effects",
-      "path": "packs/spells-effects",
-      "type": "Item",
-      "systems": ["pf2e"],
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    }
+    { "name": "classes",        "label": "Classes",        "path": "packs/classes",        "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "classfeatures",  "label": "Classfeatures",  "path": "packs/classfeatures",  "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "feats",          "label": "Feats",          "path": "packs/feats",          "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "feats-effects",  "label": "Feats-effects",  "path": "packs/feats-effects",  "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "heritages",      "label": "Heritages",      "path": "packs/heritages",      "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "divindades",     "label": "Divindades",     "path": "packs/divindades",     "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "dons",           "label": "Dons",           "path": "packs/dons",           "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "spells",         "label": "Spells",         "path": "packs/spells",         "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "spells-effects", "label": "Spells-effects", "path": "packs/spells-effects", "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
   ],
   "compatibility": {
     "minimum": "11",
