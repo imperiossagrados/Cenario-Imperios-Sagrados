@@ -36,7 +36,7 @@
     {
       "name": "classes",
       "label": "Classes",
-      "path": "packs/classes/classes",
+      "path": "packs/classes",
       "type": "Item",
       "systems": ["pf2e"],
       "ownership": {
@@ -48,7 +48,7 @@
     {
       "name": "classfeatures",
       "label": "Classfeatures",
-      "path": "packs/classfeatures/classfeatures",
+      "path": "packs/classfeatures",
       "type": "Item",
       "systems": ["pf2e"],
       "ownership": {
@@ -84,7 +84,7 @@
     {
       "name": "heritages",
       "label": "Heritages",
-      "path": "packs/heritages/heritages",
+      "path": "packs/heritages",
       "type": "Item",
       "systems": ["pf2e"],
       "ownership": {
@@ -96,7 +96,7 @@
     {
       "name": "divindades",
       "label": "Divindades",
-      "path": "packs/divindades/divindades",
+      "path": "packs/divindades",
       "type": "Item",
       "systems": ["pf2e"],
       "ownership": {
