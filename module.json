@@ -1,12 +1,12 @@
 {
   "id": "cenario-is-imperios-sagrados-pf2e",
-  "systems": ["pf2e"],
   "title": "Cenário IS Impérios Sagrados PF2e",
   "version": "1.0.0",
+  "systems": ["pf2e"],
   "description": "Adaptação do cenário Impérios Sagrados",
   "authors": [
     {
-      "name": "Cristian Abreu de Quevedo", 
+      "name": "Cristian Abreu de Quevedo",
       "flags": {}
     },
     {
@@ -36,24 +36,26 @@
     {
       "name": "classes",
       "label": "Classes",
-      "path": "packs/classes",
+      "path": "packs/classes/classes",
       "type": "Item",
       "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "classfeatures",
       "label": "Classfeatures",
-      "path": "packs/classfeatures",
+      "path": "packs/classfeatures/classfeatures",
       "type": "Item",
       "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "feats",
@@ -64,7 +66,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "feats-effects",
@@ -75,40 +78,44 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "heritages",
       "label": "Heritages",
-      "path": "packs/heritages",
+      "path": "packs/heritages/heritages",
       "type": "Item",
       "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "divindades",
       "label": "Divindades",
-      "path": "packs/divindades",
+      "path": "packs/divindades/divindades",
       "type": "Item",
       "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "dons",
       "label": "Dons",
-      "path": "packs/dons",
+      "path": "packs/dons/dons",
       "type": "Item",
       "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "spells",
@@ -119,7 +126,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "spells-effects",
@@ -130,7 +138,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "compatibility": {
