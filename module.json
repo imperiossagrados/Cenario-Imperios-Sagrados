@@ -1,5 +1,6 @@
 {
   "id": "cenario-is-imperios-sagrados-pf2e",
+  "systems": ["pf2e"],
   "title": "Cenário IS Impérios Sagrados PF2e",
   "version": "1.0.0",
   "description": "Adaptação do cenário Impérios Sagrados",
@@ -17,127 +18,7 @@
   "manifest": "https://raw.githubusercontent.com/imperiossagrados/Cenario-Imperios-Sagrados/refs/heads/main/module.json",
   "download": "https://github.com/imperiossagrados/Cenario-Imperios-Sagrados/archive/refs/heads/main.zip",
   "flags": {
-    "canUpload": true
-  },
-  "packs": [
-    {
-      "name": "classes",
-      "label": "Classes",
-      "path": "./packs/classes/classes.db",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "classfeatures",
-      "label": "Classfeatures",
-      "path": "./packs/classfeatures/classfeatures.db",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "feats",
-      "label": "Feats",
-      "path": "packs/feats.db",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "feats-effects",
-      "label": "Feats-effects",
-      "path": "packs/feats-effects.db",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "heritages",
-      "label": "Heritages",
-      "path": "./packs/heritages/heritages.db",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "divindades",
-      "label": "Divindades",
-      "path": "./packs/divindades/divindades.db",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "dons",
-      "label": "Dons",
-      "path": "./packs/dons/dons.db",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "spells",
-      "label": "Spells",
-      "path": "packs/spells.db",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "spells-effects",
-      "label": "Spells-effects",
-      "path": "packs/spells-effects.db",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
-  "packFolder": [
-    {
-      "name": "Expasion Pack",
-      "sorting": "m",
-      "packs": [
-        "classes",
-        "classfeatures",
-        "heritages",
-        "divindadess",
-        "dons",
-        "feats",
-        "feats-effects",
-        "spells",
-        "spells-effects"
-      ]
-    }
-  ],
-  "flags": {
+    "canUpload": true,
     "cenario-is-imperios-sagrados-pf2e": {
       "pf2e-homebrew": {
         "creatureTraits": {
@@ -151,6 +32,124 @@
       }
     }
   },
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classfeatures",
+      "label": "Classfeatures",
+      "path": "packs/classfeatures",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats-effects",
+      "label": "Feats-effects",
+      "path": "packs/feats-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "heritages",
+      "label": "Heritages",
+      "path": "packs/heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "divindades",
+      "label": "Divindades",
+      "path": "packs/divindades",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dons",
+      "label": "Dons",
+      "path": "packs/dons",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells-effects",
+      "label": "Spells-effects",
+      "path": "packs/spells-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Expansion Pack",
+      "sorting": "m",
+      "packs": [
+        "classes",
+        "classfeatures",
+        "heritages",
+        "divindades",
+        "dons",
+        "feats",
+        "feats-effects",
+        "spells",
+        "spells-effects"
+      ]
+    }
+  ],
   "compatibility": {
     "minimum": "11",
     "verified": "11"
