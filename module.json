@@ -38,7 +38,7 @@
       "label": "Classes",
       "path": "packs/classes",
       "type": "Item",
-      "system": "pf2e",
+      "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -49,7 +49,7 @@
       "label": "Classfeatures",
       "path": "packs/classfeatures",
       "type": "Item",
-      "system": "pf2e",
+      "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -60,7 +60,7 @@
       "label": "Feats",
       "path": "packs/feats",
       "type": "Item",
-      "system": "pf2e",
+      "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -71,7 +71,7 @@
       "label": "Feats-effects",
       "path": "packs/feats-effects",
       "type": "Item",
-      "system": "pf2e",
+      "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -82,7 +82,7 @@
       "label": "Heritages",
       "path": "packs/heritages",
       "type": "Item",
-      "system": "pf2e",
+      "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -93,7 +93,7 @@
       "label": "Divindades",
       "path": "packs/divindades",
       "type": "Item",
-      "system": "pf2e",
+      "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -104,7 +104,7 @@
       "label": "Dons",
       "path": "packs/dons",
       "type": "Item",
-      "system": "pf2e",
+      "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -115,7 +115,7 @@
       "label": "Spells",
       "path": "packs/spells",
       "type": "Item",
-      "system": "pf2e",
+      "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -126,32 +126,15 @@
       "label": "Spells-effects",
       "path": "packs/spells-effects",
       "type": "Item",
-      "system": "pf2e",
+      "systems": ["pf2e"],
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     }
   ],
-  "packFolders": [
-    {
-      "name": "Expansion Pack",
-      "sorting": "m",
-      "packs": [
-        "classes",
-        "classfeatures",
-        "heritages",
-        "divindades",
-        "dons",
-        "feats",
-        "feats-effects",
-        "spells",
-        "spells-effects"
-      ]
-    }
-  ],
   "compatibility": {
     "minimum": "11",
     "verified": "11"
-  }
+  },
 }
