@@ -19,9 +19,28 @@
           "zaurin": "Zaurin",
           "seth": "Seth"
         },
+        "spellTraits": {
+          "forca": "Força",
+          "somus": "Somus",
+          "psique": "Psique",
+          "naturezi": "Naturezi",
+          "spiritus": "Spiritus"
+        },
+        "actionTraits": {
+          "forca": "Força"
+        },
         "featTraits": {
+          "forca": "Força",
+          "somus": "Somus",
+          "psique": "Psique",
+          "naturezi": "Naturezi",
+          "spiritus": "Spiritus",
           "zaurin": "Zaurin",
           "seth": "Seth"
+        },
+        "classTraits": {
+        "hartari": "Hartari",
+        "duldron": "Duldron"
         }
       }
     }
