@@ -1,5 +1,25 @@
-2026/03/25-16:55:09.044 29f4 Recovering log #90
-2026/03/25-16:55:09.044 29f4 Level-0 table #92: started
-2026/03/25-16:55:09.051 29f4 Level-0 table #92: 2474 bytes OK
-2026/03/25-16:55:09.052 29f4 Delete type=0 #90
-2026/03/25-16:55:09.052 29f4 Delete type=3 #88
+2026/03/29-12:01:23.956 4d5c Recovering log #134
+2026/03/29-12:01:23.956 4d5c Level-0 table #136: started
+2026/03/29-12:01:23.958 4d5c Level-0 table #136: 5109 bytes OK
+2026/03/29-12:01:23.959 4d5c Delete type=0 #134
+2026/03/29-12:01:23.959 4d5c Delete type=3 #132
+2026/03/29-12:02:33.911 5408 Level-0 table #139: started
+2026/03/29-12:02:33.919 5408 Level-0 table #139: 2474 bytes OK
+2026/03/29-12:02:33.919 5408 Delete type=0 #137
+2026/03/29-12:02:33.920 5408 Manual compaction at level-0 from '!items!hartari-class' @ 72057594037927935 : 1 .. '!items!null' @ 0 : 0; will stop at '!items!null' @ 111 : 1
+2026/03/29-12:02:33.920 5408 Compacting 3@0 + 0@1 files
+2026/03/29-12:02:33.922 5408 Generated table #140@0: 3 keys, 7727 bytes
+2026/03/29-12:02:33.922 5408 Compacted 3@0 + 0@1 files => 7727 bytes
+2026/03/29-12:02:33.922 5408 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/29-12:02:33.922 5408 Delete type=2 #133
+2026/03/29-12:02:33.922 5408 Delete type=2 #136
+2026/03/29-12:02:33.922 5408 Delete type=2 #139
+2026/03/29-12:02:33.930 5408 Manual compaction at level-0 from '!items!null' @ 111 : 1 .. '!items!null' @ 0 : 0; will stop at (end)
+2026/03/29-12:02:33.931 5408 Manual compaction at level-1 from '!items!hartari-class' @ 72057594037927935 : 1 .. '!items!null' @ 0 : 0; will stop at '!items!null' @ 111 : 1
+2026/03/29-12:02:33.931 5408 Compacting 1@1 + 1@2 files
+2026/03/29-12:02:33.933 5408 Generated table #141@1: 4 keys, 9896 bytes
+2026/03/29-12:02:33.933 5408 Compacted 1@1 + 1@2 files => 9896 bytes
+2026/03/29-12:02:33.933 5408 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/29-12:02:33.933 5408 Delete type=2 #129
+2026/03/29-12:02:33.934 5408 Delete type=2 #140
+2026/03/29-12:02:33.935 5408 Manual compaction at level-1 from '!items!null' @ 111 : 1 .. '!items!null' @ 0 : 0; will stop at (end)
