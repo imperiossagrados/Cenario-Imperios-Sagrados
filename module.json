@@ -35,18 +35,28 @@
           "psique": "Psique",
           "naturezi": "Naturezi",
           "spiritus": "Spiritus",
+          "Lâmina Equilibrada": "Lâmina Equilibrada",
+          "Serenidade": "Serenidade",
+          "Convergência": "Convergência",
           "zaurin": "Zaurin",
           "seth": "Seth"
         },
         "classTraits": {
-        "hartari": "Hartari",
-        "duldron": "Duldron"
+          "hartari": "Hartari",
+          "duldron": "Duldron"
+        },
+        "weaponTraits": {
+          "sabre-de-luz": {
+            "label": "Sabre de Luz",
+            "description": "Esta arma é uma lâmina mística vinculada à Força. Seus aprimoramentos não dependem de runas fundamentais comuns, mas da sintonia de seu portador com a Força."
+          }
         }
       }
     }
   },
   "packs": [
     { "name": "classes",        "label": "Classes",        "path": "packs/classes",        "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "weapons",        "label": "Weapons",        "path": "packs/weapons",        "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "classfeatures",  "label": "Classfeatures",  "path": "packs/classfeatures",  "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "feats",          "label": "Feats",          "path": "packs/feats",          "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "feats-effects",  "label": "Feats-effects",  "path": "packs/feats-effects",  "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
