@@ -70,7 +70,7 @@
     { "name": "spells-effects", "label": "Spells-effects", "path": "packs/spells-effects", "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
   ],
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "13",
+    "verified": "13"
   }
 }
