@@ -1,25 +1,24 @@
-2026/03/29-12:01:23.956 4d5c Recovering log #134
-2026/03/29-12:01:23.956 4d5c Level-0 table #136: started
-2026/03/29-12:01:23.958 4d5c Level-0 table #136: 5109 bytes OK
-2026/03/29-12:01:23.959 4d5c Delete type=0 #134
-2026/03/29-12:01:23.959 4d5c Delete type=3 #132
-2026/03/29-12:02:33.911 5408 Level-0 table #139: started
-2026/03/29-12:02:33.919 5408 Level-0 table #139: 2474 bytes OK
-2026/03/29-12:02:33.919 5408 Delete type=0 #137
-2026/03/29-12:02:33.920 5408 Manual compaction at level-0 from '!items!hartari-class' @ 72057594037927935 : 1 .. '!items!null' @ 0 : 0; will stop at '!items!null' @ 111 : 1
-2026/03/29-12:02:33.920 5408 Compacting 3@0 + 0@1 files
-2026/03/29-12:02:33.922 5408 Generated table #140@0: 3 keys, 7727 bytes
-2026/03/29-12:02:33.922 5408 Compacted 3@0 + 0@1 files => 7727 bytes
-2026/03/29-12:02:33.922 5408 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/29-12:02:33.922 5408 Delete type=2 #133
-2026/03/29-12:02:33.922 5408 Delete type=2 #136
-2026/03/29-12:02:33.922 5408 Delete type=2 #139
-2026/03/29-12:02:33.930 5408 Manual compaction at level-0 from '!items!null' @ 111 : 1 .. '!items!null' @ 0 : 0; will stop at (end)
-2026/03/29-12:02:33.931 5408 Manual compaction at level-1 from '!items!hartari-class' @ 72057594037927935 : 1 .. '!items!null' @ 0 : 0; will stop at '!items!null' @ 111 : 1
-2026/03/29-12:02:33.931 5408 Compacting 1@1 + 1@2 files
-2026/03/29-12:02:33.933 5408 Generated table #141@1: 4 keys, 9896 bytes
-2026/03/29-12:02:33.933 5408 Compacted 1@1 + 1@2 files => 9896 bytes
-2026/03/29-12:02:33.933 5408 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/03/29-12:02:33.933 5408 Delete type=2 #129
-2026/03/29-12:02:33.934 5408 Delete type=2 #140
-2026/03/29-12:02:33.935 5408 Manual compaction at level-1 from '!items!null' @ 111 : 1 .. '!items!null' @ 0 : 0; will stop at (end)
+2026/04/02-10:16:38.597 adac Recovering log #143
+2026/04/02-10:16:38.597 adac Level-0 table #145: started
+2026/04/02-10:16:38.599 adac Level-0 table #145: 5198 bytes OK
+2026/04/02-10:16:38.600 adac Delete type=0 #143
+2026/04/02-10:16:38.601 adac Delete type=3 #142
+2026/04/02-10:50:55.412 a888 Level-0 table #148: started
+2026/04/02-10:50:55.416 a888 Level-0 table #148: 106481 bytes OK
+2026/04/02-10:50:55.417 a888 Delete type=0 #146
+2026/04/02-10:50:55.417 a888 Manual compaction at level-0 from '!items!hartari-class' @ 72057594037927935 : 1 .. '!items!null' @ 0 : 0; will stop at '!items!null' @ 112 : 1
+2026/04/02-10:50:55.417 a888 Compacting 2@0 + 0@1 files
+2026/04/02-10:50:55.419 a888 Generated table #149@0: 3 keys, 8152 bytes
+2026/04/02-10:50:55.419 a888 Compacted 2@0 + 0@1 files => 8152 bytes
+2026/04/02-10:50:55.419 a888 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/02-10:50:55.419 a888 Delete type=2 #145
+2026/04/02-10:50:55.419 a888 Delete type=2 #148
+2026/04/02-10:50:55.421 a888 Manual compaction at level-0 from '!items!null' @ 112 : 1 .. '!items!null' @ 0 : 0; will stop at (end)
+2026/04/02-10:50:55.421 a888 Manual compaction at level-1 from '!items!hartari-class' @ 72057594037927935 : 1 .. '!items!null' @ 0 : 0; will stop at '!items!null' @ 114 : 1
+2026/04/02-10:50:55.421 a888 Compacting 1@1 + 1@2 files
+2026/04/02-10:50:55.423 a888 Generated table #150@1: 4 keys, 10321 bytes
+2026/04/02-10:50:55.423 a888 Compacted 1@1 + 1@2 files => 10321 bytes
+2026/04/02-10:50:55.424 a888 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/02-10:50:55.424 a888 Delete type=2 #141
+2026/04/02-10:50:55.424 a888 Delete type=2 #149
+2026/04/02-10:50:55.429 a888 Manual compaction at level-1 from '!items!null' @ 114 : 1 .. '!items!null' @ 0 : 0; will stop at (end)
