@@ -1,7 +1,0 @@
-2026/04/02-10:16:38.740 9874 Recovering log #66
-2026/04/02-10:16:38.742 9874 Delete type=0 #66
-2026/04/02-10:16:38.742 9874 Delete type=3 #65
-2026/04/02-10:50:55.429 a888 Level-0 table #70: started
-2026/04/02-10:50:55.429 a888 Level-0 table #70: 0 bytes OK
-2026/04/02-10:50:55.429 a888 Delete type=0 #68
-2026/04/02-10:50:55.432 a888 Manual compaction at level-0 from '!items!4A1UpxOOneRSaKIZ' @ 72057594037927935 : 1 .. '!items!zbUwSbbdf5UrbXmS' @ 0 : 0; will stop at (end)
