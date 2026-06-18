@@ -1,3 +1,8 @@
-2026/04/22-18:07:53.249 66f0 Recovering log #125
-2026/04/22-18:07:53.250 66f0 Delete type=0 #125
-2026/04/22-18:07:53.250 66f0 Delete type=3 #124
+2026/06/18-17:28:51.691 7bac Recovering log #137
+2026/06/18-17:28:51.692 7bac Delete type=0 #137
+2026/06/18-17:28:51.693 7bac Delete type=3 #136
+2026/06/18-17:31:17.599 8dac Level-0 table #141: started
+2026/06/18-17:31:17.599 8dac Level-0 table #141: 0 bytes OK
+2026/06/18-17:31:17.599 8dac Delete type=0 #139
+2026/06/18-17:31:17.599 8dac Manual compaction at level-0 from '!folders!LfyLzwqD9npRDBWf' @ 72057594037927935 : 1 .. '!items!yi4MOfvtTRcImlwe' @ 0 : 0; will stop at (end)
+2026/06/18-17:31:17.599 8dac Manual compaction at level-1 from '!folders!LfyLzwqD9npRDBWf' @ 72057594037927935 : 1 .. '!items!yi4MOfvtTRcImlwe' @ 0 : 0; will stop at (end)

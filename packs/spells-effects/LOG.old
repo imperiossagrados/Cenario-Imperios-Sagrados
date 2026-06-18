@@ -1,3 +1,7 @@
-2026/04/22-18:07:53.265 28ec Recovering log #114
-2026/04/22-18:07:53.267 28ec Delete type=0 #114
-2026/04/22-18:07:53.267 28ec Delete type=3 #113
+2026/06/18-17:28:51.707 85a0 Recovering log #126
+2026/06/18-17:28:51.709 85a0 Delete type=0 #126
+2026/06/18-17:28:51.709 85a0 Delete type=3 #125
+2026/06/18-17:31:17.600 8dac Level-0 table #130: started
+2026/06/18-17:31:17.600 8dac Level-0 table #130: 0 bytes OK
+2026/06/18-17:31:17.601 8dac Delete type=0 #128
+2026/06/18-17:31:17.603 8dac Manual compaction at level-0 from '!items!4A1UpxOOneRSaKIZ' @ 72057594037927935 : 1 .. '!items!zbUwSbbdf5UrbXmS' @ 0 : 0; will stop at (end)

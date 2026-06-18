@@ -17,6 +17,10 @@
       "pf2e-homebrew": {
         "creatureTraits": {
           "zaurin": "Zaurin",
+          "rannab": "Rannab",
+          "lurinni": "lurinni",
+          "urac": "Urac",
+          "nérta": "Nérta",
           "seth": "Seth"
         },
         "spellTraits": {
@@ -24,10 +28,27 @@
           "somus": "Somus",
           "psique": "Psique",
           "naturezi": "Naturezi",
-          "spiritus": "Spiritus"
+          "spiritus": "Spiritus",
+          "zaurin": "Zaurin",
+          "lurinni": "lurinni",
+          "urac": "Urac",
+          "aurora": "Aurora",
+          "dom": "dom",
+          "rannab": "Rannab",
+          "nérta": "Nérta",
+          "seth": "Seth"
         },
         "actionTraits": {
-          "forca": "Força"
+          "aurora": "Aurora",
+          "forca": "Força",
+          "zaurin": "Zaurin",
+          "lurinni": "lurinni",
+          "urac": "Urac",
+          "aurora": "Aurora",
+          "dom": "dom",
+          "rannab": "Rannab",
+          "nérta": "Nérta",
+          "seth": "Seth"
         },
         "featTraits": {
           "forca": "Força",
@@ -42,6 +63,12 @@
           "Sangue": "Sangue",
           "Supremacia": "Supremacia",
           "zaurin": "Zaurin",
+          "lurinni": "lurinni",
+          "urac": "Urac",
+          "aurora": "Aurora",
+          "dom": "dom",
+          "rannab": "Rannab",
+          "nérta": "Nérta",
           "seth": "Seth"
         },
         "classTraits": {
@@ -66,6 +93,7 @@
     { "name": "heritages",      "label": "Heritages",      "path": "packs/heritages",      "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "divindades",     "label": "Divindades",     "path": "packs/divindades",     "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "dons",           "label": "Dons",           "path": "packs/dons",           "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "dom-effects",  "label": "Dom-effects",  "path": "packs/dom-effects",  "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "spells",         "label": "Spells",         "path": "packs/spells",         "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "spells-effects", "label": "Spells-effects", "path": "packs/spells-effects", "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
   ],
