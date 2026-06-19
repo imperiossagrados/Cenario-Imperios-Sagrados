@@ -1,3 +1,5 @@
-2026/06/18-17:31:51.846 a3d4 Recovering log #28
-2026/06/18-17:31:51.847 a3d4 Delete type=0 #28
-2026/06/18-17:31:51.848 a3d4 Delete type=3 #25
+2026/06/19-18:55:40.978 b0b8 Recovering log #32
+2026/06/19-18:55:40.978 b0b8 Level-0 table #34: started
+2026/06/19-18:55:40.981 b0b8 Level-0 table #34: 38930 bytes OK
+2026/06/19-18:55:40.983 b0b8 Delete type=0 #32
+2026/06/19-18:55:40.983 b0b8 Delete type=3 #31
