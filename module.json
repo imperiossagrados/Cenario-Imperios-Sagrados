@@ -1,7 +1,7 @@
 {
   "id": "cenario-is-imperios-sagrados-pf2e",
   "title": "Cenário IS Impérios Sagrados PF2e",
-  "version": "1.0.0",
+  "version": "1.10.0",
   "systems": ["pf2e"],
   "description": "Adaptação do cenário Impérios Sagrados",
   "authors": [
@@ -21,6 +21,8 @@
           "lurinni": "lurinni",
           "urac": "Urac",
           "nérta": "Nérta",
+          "darkassan": "Darkassan",
+          "siuwen": "Diuwen",
           "seth": "Seth"
         },
         "spellTraits": {
@@ -36,6 +38,8 @@
           "dom": "dom",
           "rannab": "Rannab",
           "nérta": "Nérta",
+          "elementae": "Elementae",
+          "seiva": "Seiva",
           "seth": "Seth"
         },
         "actionTraits": {
@@ -48,6 +52,10 @@
           "dom": "dom",
           "rannab": "Rannab",
           "nérta": "Nérta",
+          "elementae": "Elementae",
+          "seiva": "Seiva",
+          "darkassan": "Darkassan",
+          "siuwen": "Diuwen",
           "seth": "Seth"
         },
         "featTraits": {
@@ -69,6 +77,10 @@
           "dom": "dom",
           "rannab": "Rannab",
           "nérta": "Nérta",
+          "elementae": "Elementae",
+          "seiva": "Seiva",
+          "darkassan": "Darkassan",
+          "siuwen": "Diuwen",
           "seth": "Seth"
         },
         "classTraits": {
@@ -85,20 +97,208 @@
     }
   },
   "packs": [
-    { "name": "classes",        "label": "Classes",        "path": "packs/classes",        "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "weapons",        "label": "Weapons",        "path": "packs/weapons",        "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "classfeatures",  "label": "Classfeatures",  "path": "packs/classfeatures",  "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "feats",          "label": "Feats",          "path": "packs/feats",          "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "feats-effects",  "label": "Feats-effects",  "path": "packs/feats-effects",  "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "heritages",      "label": "Heritages",      "path": "packs/heritages",      "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "divindades",     "label": "Divindades",     "path": "packs/divindades",     "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "dons",           "label": "Dons",           "path": "packs/dons",           "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "dom-effects",  "label": "Dom-effects",  "path": "packs/dom-effects",  "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "spells",         "label": "Spells",         "path": "packs/spells",         "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "spells-effects", "label": "Spells-effects", "path": "packs/spells-effects", "type": "Item", "system": "pf2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/classes.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "weapons",
+      "label": "Armas",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/weapons.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classfeatures",
+      "label": "Recursos de Classe",
+      "path": "packs/classfeatures",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/classfeatures.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Talentos",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/feats.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats-effects",
+      "label": "Efeitos de Talentos",
+      "path": "packs/feats-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/feats-effects.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "heritages",
+      "label": "Heranças",
+      "path": "packs/heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/heritages.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "divindades",
+      "label": "Divindades",
+      "path": "packs/divindades",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/divindades.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dons",
+      "label": "Dons",
+      "path": "packs/dons",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/dons.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dom-effects",
+      "label": "Efeitos de Dons",
+      "path": "packs/dom-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/dom-effects.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Magias",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/spells.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells-effects",
+      "label": "Efeitos de Magias",
+      "path": "packs/spells-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/spells-effects.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+
+  "packFolders": [
+    {
+      "name": "Impérios Sagrados",
+      "sorting": "m",
+      "color": "#b88a44",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Classes e Personagens",
+          "sorting": "m",
+          "color": "#b9743c",
+          "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/folder-classes-personagens.webp",
+          "packs": [
+            "classes",
+            "classfeatures",
+            "heritages"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Talentos e Efeitos",
+          "sorting": "m",
+          "color": "#8f4c3e",
+          "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/folder-talentos-efeitos.webp",
+          "packs": [
+            "feats",
+            "feats-effects"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Fé e Dons",
+          "sorting": "m",
+          "color": "#d0a84d",
+          "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/folder-fe-dons.webp",
+          "packs": [
+            "divindades",
+            "dons",
+            "dom-effects"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Magia",
+          "sorting": "m",
+          "color": "#65558f",
+          "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/folder-magia.webp",
+          "packs": [
+            "spells",
+            "spells-effects"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Equipamentos",
+          "sorting": "m",
+          "color": "#6f7379",
+          "banner": "modules/cenario-is-imperios-sagrados-pf2e/assets/banners/folder-equipamentos.webp",
+          "packs": [
+            "weapons"
+          ],
+          "folders": []
+        }
+      ]
+    }
   ],
   "compatibility": {
-    "minimum": "13",
-    "verified": "13"
+    "minimum": "14",
+    "verified": "14"
   }
 }
