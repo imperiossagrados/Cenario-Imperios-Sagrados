@@ -1,7 +1,7 @@
 {
   "id": "cenario-is-imperios-sagrados-pf2e",
   "title": "Cenário IS Impérios Sagrados PF2e",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "systems": ["pf2e"],
   "description": "Adaptação do cenário Impérios Sagrados",
   "authors": [
@@ -21,7 +21,15 @@
           "urac": "Urac",
           "nérta": "Nérta",
           "darkassan": "Darkassan",
-          "siuwen": "Diuwen",
+          "diuwen": "Diuwen",
+          "afinidade-elementae-fogo": "Afinidade Elementae: Fogo",
+          "afinidade-elementae-agua": "Afinidade Elementae: Água",
+          "afinidade-elementae-ar": "Afinidade Elementae: Ar",
+          "afinidade-elementae-terra": "Afinidade Elementae: Terra",
+          "afinidade-elementae-seiva": "Afinidade Elementae: Seiva",
+          "elementae": "Elementae",
+          "dragao-is": "Dragão",
+          "morfose-is": "Morfose",
           "seth": "Seth"
         },
         "spellTraits": {
@@ -52,9 +60,11 @@
           "rannab": "Rannab",
           "nérta": "Nérta",
           "elementae": "Elementae",
+          "dragao-is": "Dragão",
+          "morfose-is": "Morfose",
           "seiva": "Seiva",
-          "darkassan": "Darkassan",
-          "siuwen": "Diuwen",
+          "areias-sagradas": "Areias Sagradas",
+          "exaltar": "Exaltar",
           "seth": "Seth"
         },
         "featTraits": {
@@ -77,13 +87,19 @@
           "rannab": "Rannab",
           "nérta": "Nérta",
           "elementae": "Elementae",
+          "dragao-is": "Dragão",
+          "morfose-is": "Morfose",
           "seiva": "Seiva",
           "darkassan": "Darkassan",
-          "siuwen": "Diuwen",
+          "diuwen": "Diuwen",
+          "protetor-da-fé": "Protetor da Fé",
+          "areias-sagradas": "Areias Sagradas",
+          "exaltar": "Exaltar",
           "seth": "Seth"
         },
         "classTraits": {
           "hartari": "Hartari",
+          "protetor-da-fé": "Protetor da Fé",
           "duldron": "Duldron"
         },
         "weaponTraits": {
