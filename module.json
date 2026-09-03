@@ -1,7 +1,7 @@
 {
   "id": "cenario-is-imperios-sagrados-pf2e",
   "title": "Cenário IS Impérios Sagrados PF2e",
-  "version": "1.10.2",
+  "version": "1.10.2.1",
   "systems": ["pf2e"],
   "description": "Adaptação do cenário Impérios Sagrados",
   "authors": [
@@ -65,6 +65,9 @@
           "seiva": "Seiva",
           "areias-sagradas": "Areias Sagradas",
           "exaltar": "Exaltar",
+          "solar": "Solar",
+          "refletir": "Refletir",
+          "lunar": "Lunar",
           "seth": "Seth"
         },
         "featTraits": {
@@ -95,6 +98,9 @@
           "protetor-da-fé": "Protetor da Fé",
           "areias-sagradas": "Areias Sagradas",
           "exaltar": "Exaltar",
+          "solar": "Solar",
+          "refletir": "Refletir",
+          "lunar": "Lunar",
           "seth": "Seth"
         },
         "classTraits": {

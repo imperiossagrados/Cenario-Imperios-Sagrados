@@ -1,15 +1,16 @@
-2026/09/02-11:13:55.635 1bd74 Recovering log #126
-2026/09/02-11:13:55.636 1bd74 Delete type=0 #126
-2026/09/02-11:13:55.638 1bd74 Delete type=3 #124
-2026/09/02-11:27:47.530 1c528 Level-0 table #130: started
-2026/09/02-11:27:47.530 1c528 Level-0 table #130: 0 bytes OK
-2026/09/02-11:27:47.530 1c528 Delete type=0 #128
-2026/09/02-11:27:47.531 1c528 Manual compaction at level-0 from '!folders!2HpPCOyOazP8cQQf' @ 72057594037927935 : 1 .. '!items!yyEyOAGIgNYTcayS' @ 0 : 0; will stop at '!items!yyEyOAGIgNYTcayS' @ 647 : 1
-2026/09/02-11:27:47.531 1c528 Compacting 2@0 + 1@1 files
-2026/09/02-11:27:47.533 1c528 Generated table #131@0: 41 keys, 43000 bytes
-2026/09/02-11:27:47.533 1c528 Compacted 2@0 + 1@1 files => 43000 bytes
-2026/09/02-11:27:47.534 1c528 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/09/02-11:27:47.534 1c528 Delete type=2 #118
-2026/09/02-11:27:47.535 1c528 Delete type=2 #122
-2026/09/02-11:27:47.535 1c528 Delete type=2 #125
-2026/09/02-11:27:47.539 1c528 Manual compaction at level-0 from '!items!yyEyOAGIgNYTcayS' @ 647 : 1 .. '!items!yyEyOAGIgNYTcayS' @ 0 : 0; will stop at (end)
+2026/09/03-12:30:23.587 5464 Recovering log #133
+2026/09/03-12:30:23.587 5464 Level-0 table #135: started
+2026/09/03-12:30:23.589 5464 Level-0 table #135: 5811 bytes OK
+2026/09/03-12:30:23.590 5464 Delete type=0 #133
+2026/09/03-12:30:23.590 5464 Delete type=3 #132
+2026/09/03-12:38:44.523 4154 Level-0 table #138: started
+2026/09/03-12:38:44.523 4154 Level-0 table #138: 0 bytes OK
+2026/09/03-12:38:44.524 4154 Delete type=0 #136
+2026/09/03-12:38:44.526 4154 Manual compaction at level-0 from '!folders!2HpPCOyOazP8cQQf' @ 72057594037927935 : 1 .. '!items!yyEyOAGIgNYTcayS' @ 0 : 0; will stop at '!items!bWSqWIjFDTgVAnyv' @ 766 : 1
+2026/09/03-12:38:44.526 4154 Compacting 1@0 + 1@1 files
+2026/09/03-12:38:44.528 4154 Generated table #139@0: 41 keys, 42836 bytes
+2026/09/03-12:38:44.528 4154 Compacted 1@0 + 1@1 files => 42836 bytes
+2026/09/03-12:38:44.528 4154 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/09/03-12:38:44.528 4154 Delete type=2 #131
+2026/09/03-12:38:44.528 4154 Delete type=2 #135
+2026/09/03-12:38:44.529 4154 Manual compaction at level-0 from '!items!bWSqWIjFDTgVAnyv' @ 766 : 1 .. '!items!yyEyOAGIgNYTcayS' @ 0 : 0; will stop at (end)
