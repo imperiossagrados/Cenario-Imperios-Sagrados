@@ -1,7 +1,7 @@
 {
   "id": "cenario-is-imperios-sagrados-pf2e",
   "title": "Cenário IS Impérios Sagrados PF2e",
-  "version": "1.10.2.1",
+  "version": "1.10.2.1.1",
   "systems": ["pf2e"],
   "description": "Adaptação do cenário Impérios Sagrados",
   "authors": [
@@ -19,6 +19,7 @@
           "rannab": "Rannab",
           "lurinni": "lurinni",
           "urac": "Urac",
+          "tarion": "Tarion",
           "nérta": "Nérta",
           "darkassan": "Darkassan",
           "diuwen": "Diuwen",
@@ -53,6 +54,7 @@
           "aurora": "Aurora",
           "forca": "Força",
           "zaurin": "Zaurin",
+          "tarion": "Tarion",
           "lurinni": "lurinni",
           "urac": "Urac",
           "aurora": "Aurora",
@@ -84,6 +86,7 @@
           "Supremacia": "Supremacia",
           "zaurin": "Zaurin",
           "lurinni": "lurinni",
+          "tarion": "Tarion",
           "urac": "Urac",
           "aurora": "Aurora",
           "dom": "dom",
