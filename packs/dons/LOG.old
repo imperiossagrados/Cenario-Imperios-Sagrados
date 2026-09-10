@@ -1,16 +1,14 @@
-2026/09/03-12:30:23.587 5464 Recovering log #133
-2026/09/03-12:30:23.587 5464 Level-0 table #135: started
-2026/09/03-12:30:23.589 5464 Level-0 table #135: 5811 bytes OK
-2026/09/03-12:30:23.590 5464 Delete type=0 #133
-2026/09/03-12:30:23.590 5464 Delete type=3 #132
-2026/09/03-12:38:44.523 4154 Level-0 table #138: started
-2026/09/03-12:38:44.523 4154 Level-0 table #138: 0 bytes OK
-2026/09/03-12:38:44.524 4154 Delete type=0 #136
-2026/09/03-12:38:44.526 4154 Manual compaction at level-0 from '!folders!2HpPCOyOazP8cQQf' @ 72057594037927935 : 1 .. '!items!yyEyOAGIgNYTcayS' @ 0 : 0; will stop at '!items!bWSqWIjFDTgVAnyv' @ 766 : 1
-2026/09/03-12:38:44.526 4154 Compacting 1@0 + 1@1 files
-2026/09/03-12:38:44.528 4154 Generated table #139@0: 41 keys, 42836 bytes
-2026/09/03-12:38:44.528 4154 Compacted 1@0 + 1@1 files => 42836 bytes
-2026/09/03-12:38:44.528 4154 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/09/03-12:38:44.528 4154 Delete type=2 #131
-2026/09/03-12:38:44.528 4154 Delete type=2 #135
-2026/09/03-12:38:44.529 4154 Manual compaction at level-0 from '!items!bWSqWIjFDTgVAnyv' @ 766 : 1 .. '!items!yyEyOAGIgNYTcayS' @ 0 : 0; will stop at (end)
+2026/09/10-17:49:13.399 2bf0 Recovering log #146
+2026/09/10-17:49:13.400 2bf0 Delete type=0 #146
+2026/09/10-17:49:13.400 2bf0 Delete type=3 #144
+2026/09/10-17:52:21.088 5fdc Level-0 table #151: started
+2026/09/10-17:52:21.095 5fdc Level-0 table #151: 1750 bytes OK
+2026/09/10-17:52:21.096 5fdc Delete type=0 #149
+2026/09/10-17:52:21.096 5fdc Manual compaction at level-0 from '!folders!2HpPCOyOazP8cQQf' @ 72057594037927935 : 1 .. '!items!yyEyOAGIgNYTcayS' @ 0 : 0; will stop at '!items!cxGYZDXUWrKNRHJi' @ 778 : 1
+2026/09/10-17:52:21.096 5fdc Compacting 1@0 + 1@1 files
+2026/09/10-17:52:21.099 5fdc Generated table #152@0: 43 keys, 43822 bytes
+2026/09/10-17:52:21.099 5fdc Compacted 1@0 + 1@1 files => 43822 bytes
+2026/09/10-17:52:21.099 5fdc compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/09/10-17:52:21.099 5fdc Delete type=2 #139
+2026/09/10-17:52:21.099 5fdc Delete type=2 #151
+2026/09/10-17:52:21.099 5fdc Manual compaction at level-0 from '!items!cxGYZDXUWrKNRHJi' @ 778 : 1 .. '!items!yyEyOAGIgNYTcayS' @ 0 : 0; will stop at (end)

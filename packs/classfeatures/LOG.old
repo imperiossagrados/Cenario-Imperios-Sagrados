@@ -1,24 +1,8 @@
-2026/09/03-12:30:23.495 33d0 Recovering log #284
-2026/09/03-12:30:23.496 33d0 Level-0 table #286: started
-2026/09/03-12:30:23.498 33d0 Level-0 table #286: 66466 bytes OK
-2026/09/03-12:30:23.500 33d0 Delete type=0 #284
-2026/09/03-12:30:23.500 33d0 Delete type=3 #283
-2026/09/03-12:38:44.520 4154 Level-0 table #289: started
-2026/09/03-12:38:44.522 4154 Level-0 table #289: 6482 bytes OK
-2026/09/03-12:38:44.522 4154 Delete type=0 #287
-2026/09/03-12:38:44.524 4154 Manual compaction at level-0 from '!folders!n7KE7T8aVNYW0wWg' @ 72057594037927935 : 1 .. '!items!whlqXDdG5Ukk5Xyu' @ 0 : 0; will stop at '!items!GLjDlZ7fp5PQBat4' @ 387 : 1
-2026/09/03-12:38:44.524 4154 Compacting 2@0 + 0@1 files
-2026/09/03-12:38:44.525 4154 Generated table #290@0: 14 keys, 15614 bytes
-2026/09/03-12:38:44.526 4154 Compacted 2@0 + 0@1 files => 15614 bytes
-2026/09/03-12:38:44.526 4154 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/03-12:38:44.526 4154 Delete type=2 #286
-2026/09/03-12:38:44.526 4154 Delete type=2 #289
-2026/09/03-12:38:44.529 4154 Manual compaction at level-0 from '!items!GLjDlZ7fp5PQBat4' @ 387 : 1 .. '!items!whlqXDdG5Ukk5Xyu' @ 0 : 0; will stop at (end)
-2026/09/03-12:38:44.529 4154 Manual compaction at level-1 from '!folders!n7KE7T8aVNYW0wWg' @ 72057594037927935 : 1 .. '!items!whlqXDdG5Ukk5Xyu' @ 0 : 0; will stop at '!items!whlqXDdG5Ukk5Xyu' @ 345 : 1
-2026/09/03-12:38:44.529 4154 Compacting 1@1 + 1@2 files
-2026/09/03-12:38:44.531 4154 Generated table #291@1: 50 keys, 46364 bytes
-2026/09/03-12:38:44.531 4154 Compacted 1@1 + 1@2 files => 46364 bytes
-2026/09/03-12:38:44.532 4154 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/09/03-12:38:44.532 4154 Delete type=2 #282
-2026/09/03-12:38:44.532 4154 Delete type=2 #290
-2026/09/03-12:38:44.536 4154 Manual compaction at level-1 from '!items!whlqXDdG5Ukk5Xyu' @ 345 : 1 .. '!items!whlqXDdG5Ukk5Xyu' @ 0 : 0; will stop at (end)
+2026/09/10-17:49:13.374 35a4 Recovering log #299
+2026/09/10-17:49:13.377 35a4 Delete type=0 #299
+2026/09/10-17:49:13.377 35a4 Delete type=3 #297
+2026/09/10-17:52:21.084 5fdc Level-0 table #306: started
+2026/09/10-17:52:21.084 5fdc Level-0 table #306: 0 bytes OK
+2026/09/10-17:52:21.084 5fdc Delete type=0 #304
+2026/09/10-17:52:21.085 5fdc Manual compaction at level-0 from '!folders!n7KE7T8aVNYW0wWg' @ 72057594037927935 : 1 .. '!items!whlqXDdG5Ukk5Xyu' @ 0 : 0; will stop at (end)
+2026/09/10-17:52:21.085 5fdc Manual compaction at level-1 from '!folders!n7KE7T8aVNYW0wWg' @ 72057594037927935 : 1 .. '!items!whlqXDdG5Ukk5Xyu' @ 0 : 0; will stop at (end)
